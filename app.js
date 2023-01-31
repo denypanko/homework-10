@@ -109,3 +109,5 @@ function Counter(incrementBtn, decrementBtn, inputField) {
 for (let i = 0; i < decrementBtns.length; i += 1) {
   new Counter(incrementBtns[i], decrementBtns[i], quantityInputs[i]);
 }
+
+AOS.init();
